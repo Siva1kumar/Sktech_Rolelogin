@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SK Tech Interview Dashboard</title>
+
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+<div class="header">
+
+    <img src="logo.jpeg">
+
+    <h1>SK TECH Interview Dashboard</h1>
+
+</div>
+
+    <div class="cards">
+
+    <!-- Cards with additional classes for styling and icons -->
+    <div class="card total">
+        <h2 id="totalCount">0</h2>
+        <p>Upcoming Interviews</p>
+    </div>
+
+    <div class="card today">
+        <h2 id="todayCount">0</h2>
+        <p>Today's Interviews</p>
+    </div>
+
+</div>
+
+<!-- Home button to navigate back to the main page -->
+<div style="margin-top: 20px;">
+    <a href="index.html" class="home-btn">Home</a>
+</div>
+
+<!-- Removed search input as per new requirements -->
+<div class="search-section" style="display:none;"></div>
+
+<table>
+
+<thead>
+
+<tr>
+<th>ID</th>
+<th>Round</th>
+<th>Technology</th>
+<th>Date</th>
+<th>From</th>
+<th>To</th>
+<th>Batch</th>
+</tr>
+
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
